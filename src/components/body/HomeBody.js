@@ -1,7 +1,9 @@
+import BodyButtons from "./BodyButtons";
+
 const HomeBody = () =>{
     return(
-        <div className="">
-            <h1>Home Body</h1>
+        <div>
+            <BodyButtons/>
         </div>
     )
 }
