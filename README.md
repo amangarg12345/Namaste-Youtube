@@ -13,27 +13,38 @@ Practice of React through Namaste Youtube
             *User Icon ✔️
      - Body
         1.Navbar at 25% area in left side fixed only hide when click on toggle button from header
-            *Home button and icon
-            *Shorts button and icon
-            *Subscriptions button and icon
-            *You
-                -Your Channel button and icon
-                -History button and icon
-                -Playlists button and icon
-                -Your Video button and icon
-                -Watch later button and icon
-                -Liked Videos button and icon
-            *Explore
-                -Trending button and icon
-                -Shopping button and icon
-                -Music button and icon
-                -Movies button and icon
-                -Live button and icon
-                -Gaming button and icon
-                -News button and icon
-                -Sports button and icon
-                -Course button and icon
-                -Fashion and Beauty button and icon
+            *Home button and icon ✔️
+            *Shorts button and icon ✔️
+            *Subscriptions button and icon ✔️
+            *You ✔️
+                -Your Channel button and icon ✔️
+                -History button and icon ✔️
+                -Playlists button and icon ✔️
+                -Your Video button and icon ✔️
+                -Watch later button and icon ✔️
+                -Liked Videos button and icon ✔️
+            *Explore ✔️
+                -Trending button and icon ✔️
+                -Shopping button and icon ✔️
+                -Music button and icon ✔️
+                -Movies button and icon ✔️
+                -Live button and icon ✔️
+                -Gaming button and icon ✔️
+                -News button and icon ✔️
+                -Sports button and icon ✔️
+                -Course button and icon ✔️
+                -Fashion and Beauty button and icon ✔️
+            *More from YouTube ✔️
+                -YouTube Premium ✔️
+                -YouTube Studio ✔️
+                -YouTube Music ✔️
+            *Settings ✔️
+            *Report history ✔️
+            *Help ✔️
+            *Send feedback ✔️
+            *About Press Copyright Contact us Creators Developers ✔️
+            *Terms Privacy Policy & Safety How Youtube works Test new features ✔️
+            *2024 Google LLC  ✔️
         2.Video List 75% Area 
             *Buttons at top Level with fixed on moving
                 -All button and icon
