@@ -1,7 +1,11 @@
+import BodyButtons from "./BodyButtons";
+import VideoList from "./VideoList";
+
 const HomeBody = () =>{
     return(
-        <div className="">
-            <h1>Home Body</h1>
+        <div>
+            <BodyButtons/>
+            <VideoList/>
         </div>
     )
 }
