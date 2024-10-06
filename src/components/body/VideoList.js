@@ -6,13 +6,21 @@ const VideoList = () =>{
     const getVideos = async () =>{
         const data = await fetch(YOUTUBE_API);
         const json = await data.json();
-        console.log(json.items);
+        //console.log(json.items);
         setData(json.items);
     }
     useEffect(()=>{getVideos()},[])    
     return(
-        <div>
-            <VideoCard info={data[0]}/>
+        <div className="flex flex-wrap">
+            { 
+                data?.map((video)=>{
+                    return(
+                        <div key={video.id}>
+                            <VideoCard info = {video}/> 
+                        </div>
+                    )      
+                })
+            }
         </div>
     )
 }

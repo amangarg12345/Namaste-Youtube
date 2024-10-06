@@ -1,6 +1,6 @@
 const BodyButtons = () =>{
     return(
-        <div>
+        <div className="flex">
             <button className="border bg-slate-300 rounded-md p-1 px-2 m-1">All</button>
             <button className="border bg-slate-300 rounded-md p-1 px-2 m-1">Mixes</button>
             <button className="border bg-slate-300 rounded-md p-1 px-2 m-1">Jukebox</button>
