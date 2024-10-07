@@ -1,8 +1,13 @@
 import Explore from "./Explore";
 import MoreFromYoutube from "./MoreFromYoutube";
 import You from "./You";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Navbar = () =>{
+    const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+  // Early Return pattern
+  if (!isMenuOpen) return null;
     return(
         <div className="shadow-gray-300 m-2">
             <div className="flex h-10 w-52 rounded-lg hover:bg-gray-100 justify-center p-1">
