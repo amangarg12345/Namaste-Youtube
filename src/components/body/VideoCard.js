@@ -16,5 +16,4 @@ const VideoCard = ({info}) => {
     </div>
   )
 }
-
 export default VideoCard
